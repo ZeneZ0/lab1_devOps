@@ -41,7 +41,7 @@ class CourseIn(BaseModel):
 
 class CourseOut(CourseIn):
     model_config = ConfigDict(from_attributes=True)
-    id: int 
+    id: int
 
 
 class GradeIn(BaseModel):
